@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #DDE6ED; /* Light background */
+    color: #27374D; /* Darkest color for text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #27374D; /* Dark color for container text */
+    text-align: justify;
+}
+
+h1 {
+    color: #526D82; /* Medium color for title */
+    text-align: center;
+    font-family: 'Birthstone Bounce', cursive; /* Custom font for title */
+    font-size: 60px;
+
+}
+
+h2 {
+    color: #526D82; /* Medium color for section headings */
+    margin-top: 20px;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    color: #27374D; /* Dark color for text */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
